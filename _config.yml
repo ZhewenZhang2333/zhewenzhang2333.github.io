@@ -7,9 +7,9 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Zhewen Zhang"
+locale                  : "en-US"
+site_theme              : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+title                   : "Zhewen Zhang"
 title_separator          : "-"
 name                     : &name "Zhewen Zhang"
 description              : &description > AI Researcher and PhD Applicant with research interests in Natural Language Processing, Computer Vision, and LLM.
@@ -22,10 +22,11 @@ repository               : "ZhewenZhang2333/zhewenzhang2333.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Zhewen Zhang"
-  location         : "Shenzhen, Guangdong, China"
-  email            : "zhewenzhang2017@gmail.com"
+  avatar          : "profile.png"
+  bio             : "University of Melbourne"
+  name            : "Zhewen Zhang"
+  location        : "Shenzhen, Guangdong, China"
+  email           : "zhewenzhang2017@gmail.com"
 
   # Academic websites
   academia         : # URL
