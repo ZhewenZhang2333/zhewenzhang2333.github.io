@@ -1,0 +1,140 @@
+cv:
+  name: 张哲闻
+  label: 联合培养博士生 / Joint Ph.D. Student
+  email: zhewenzhang2017@gmail.com
+  location: 广东，中国
+  image: ""
+  summary: >-
+    联合培养博士生，具有自然语言处理、计算机视觉、大语言模型研发经历，
+    并长期参与高中信息技术教育与信息学竞赛指导。
+
+  social_networks:
+    - network: GitHub
+      username: ZhewenZhang2333
+
+  sections:
+    教育经历:
+      - institution: 哈尔滨工业大学（深圳） × 大湾区大学
+        location: 深圳 / 东莞，中国
+        area: 联合培养项目
+        studyType: 联合培养博士
+        start_date: 2026
+        end_date: present
+        highlights:
+          - 2026 年联合培养博士研究生项目录取。
+
+      - institution: 墨尔本大学
+        location: 墨尔本，澳大利亚
+        area: 信息技术与人工智能
+        studyType: 硕士
+        start_date: 2022-02
+        end_date: 2024-02
+        score: "WAM 71.42/100"
+        highlights:
+          - 获墨尔本大学入学奖学金。
+          - 主要课程包括自然语言处理、计算机视觉、统计机器学习与人工智能自主规划。
+
+      - institution: 英属哥伦比亚大学
+        location: 温哥华，加拿大
+        area: 计算机科学
+        studyType: 学士
+        start_date: 2017-09
+        end_date: 2021-07
+        highlights:
+          - 主要课程包括 Web 编程、算法分析、人机交互、数据结构与离散结构。
+
+    工作与研究经历:
+      - company: 南方科技大学附属中学
+        position: 高中信息技术教师
+        location: 深圳，中国
+        start_date: 2024-02
+        end_date: 2026-07
+        summary: 从事高中信息技术教学、信息学竞赛指导与教育科研。
+        highlights:
+          - 持有 NOI 竞赛教练证书，指导学生参加 NOIP 与机器人相关竞赛并获奖。
+          - 参与深圳市教育学会“十四五”教育科研课题并完成结项。
+          - 参与校园开放日、科技节、考务工作及国际计算机交流论坛组织。
+
+      - company: 之江实验室 · 跨媒体智能研究中心
+        position: 研发实习生
+        location: 杭州，中国
+        start_date: 2022-11
+        end_date: 2023-02
+        summary: 面向中文语料优化 GPT-2 模型，用于科研文本生成与中英互译。
+        highlights:
+          - 重新设计中文 tokenizer 与词表结构，并开展多任务指令微调。
+          - 在内部测试集上记录到 BLEU 提升约 12.5%、Perplexity 下降约 15.7%。
+          - 通过 REST API 与命令行工具将模型部署至实验室内部服务器。
+
+      - company: 立信会计师事务所有限公司
+        position: 数据工程师
+        location: 中国
+        start_date: 2021-08
+        end_date: 2021-12
+        highlights:
+          - 使用 Python 开发 Excel 自动化工具，支持审计项目数据处理。
+          - 参与数据抽取、SQL 数据库维护及中英文项目计划编写。
+
+    代表项目:
+      - name: 中文 GPT-2 文本生成与中英互译
+        summary: 面向中文语料优化 GPT-2，并通过多任务指令微调支持摘要、问答与翻译。
+        start_date: 2022-11
+        end_date: 2023-02
+        highlights:
+          - Python, PyTorch, Hugging Face Transformers, GPT-2
+
+      - name: 气象科学内容自动识别模型
+        summary: 基于 BERT、RoBERTa 与 DPR 的科学陈述检索和立场识别模型。
+        start_date: 2023-02
+        end_date: 2023-06
+        highlights:
+          - 内部验证集 F1 提升约 9.3%，AUC 提升约 7.8%。
+
+      - name: 图像相似度对比模型
+        summary: 基于 VGG、特征提取层与注意力机制构建图像相似度模型。
+        start_date: 2023-08
+        end_date: 2023-10
+        highlights:
+          - 内部验证集准确率较原始 VGG 提升约 6.8%。
+
+      - name: Planimation 规划算法可视化
+        summary: 为 PDDL 规划问题设计基于 Novelty 算法的可视化方案。
+        start_date: 2023-08
+        end_date: 2023-12
+
+    证书与奖项:
+      - title: NOI 竞赛教练证书
+        date: 2025-06
+        awarder: 中国计算机学会相关竞赛体系
+
+      - title: 普通话水平测试二级甲等
+        date: 2024-04
+        awarder: 国家普通话水平测试
+
+      - title: 墨尔本大学入学奖学金
+        date: 2022-02
+        awarder: 墨尔本大学
+
+    专业技能:
+      - name: 编程语言
+        level: 熟练
+        keywords: "Python, C++, Java"
+
+      - name: 深度学习
+        level: 熟练
+        keywords: "PyTorch, TensorFlow, Hugging Face Transformers"
+
+      - name: 模型与方法
+        level: 项目经验
+        keywords: "GPT-2, BERT, RoBERTa, Diffusion, Q-learning, DPR"
+
+      - name: 数据与工程工具
+        level: 项目经验
+        keywords: "NumPy, Pandas, Scikit-learn, SQL, MySQL, Docker, Git"
+
+    语言能力:
+      - name: 中文
+        summary: 母语
+
+      - name: 英语
+        summary: 流利，可作为工作与学术交流语言
