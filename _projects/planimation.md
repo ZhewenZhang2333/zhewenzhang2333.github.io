@@ -1,9 +1,15 @@
 ---
 layout: page
 title: Planimation 规划算法可视化
+permalink: /projects/planimation/
 description: Novelty-based visualization for PDDL planning problems
 importance: 4
 category: 研究与工程
+role: 项目成员
+period: 2023 年 8 月—2023 年 12 月
+highlights:
+  - 面向 PDDL 规划问题设计 Novelty 算法可视化方案。
+  - 参与算法实现、阶段实验与项目报告整理。
 ---
 
 ## 项目概述

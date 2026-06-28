@@ -1,9 +1,16 @@
 ---
 layout: page
 title: 图像相似度对比模型
+permalink: /projects/image-similarity/
 description: Image similarity learning with VGG and attention mechanisms
 importance: 3
 category: 研究与工程
+role: 项目开发
+period: 2023 年 8 月—2023 年 10 月
+highlights:
+  - 使用 VGG、特征提取层与注意力机制构建图像相似度模型。
+  - 内部验证集准确率较原始 VGG 提升约 6.8%。
+  - 提供公开 GitHub 代码仓库。
 ---
 
 ## 项目概述

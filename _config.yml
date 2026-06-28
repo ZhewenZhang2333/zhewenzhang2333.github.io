@@ -2,18 +2,18 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: 张哲闻 | Zhewen Zhang
-first_name: 张哲闻
+title: Zhewen Zhang | 张哲闻
+first_name: Zhewen
 middle_name:
-last_name:
+last_name: Zhang
 contact_note: >
-  欢迎通过 Gmail 或 GitHub 联系学术交流与合作事宜。
+  Please feel free to contact me via Gmail or GitHub for academic discussions and collaboration.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  张哲闻的个人学术主页：联合培养博士生，展示教育背景、研究与工程项目及教学经历。
+  Academic homepage of Zhewen Zhang, a joint Ph.D. student, featuring education, research and engineering projects, and teaching experience.
 footer_text: >
-  基于 <a href="https://github.com/alshedivat/al-folio">al-folio</a> 构建，使用 <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> 托管。
+  Built with <a href="https://github.com/alshedivat/al-folio">al-folio</a> and hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: 张哲闻, Zhewen Zhang, artificial intelligence, natural language processing, computer vision, large language models, AI education
-lang: zh-CN # the language of your site (for example: en, fr, cn, ru, etc.)
+lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🧠 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://zhewenzhang2333.github.io
@@ -120,8 +120,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: 张哲闻的博客 # blog_name will be displayed in your blog page
-blog_description: 人工智能研究、工程实践与教育思考
+blog_name: Zhewen Zhang's Blog # blog_name will be displayed in your blog page
+blog_description: Artificial intelligence research, engineering practice, and computing education
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
