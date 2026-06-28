@@ -1,9 +1,16 @@
 ---
 layout: page
 title: 中文 GPT-2 文本生成与中英互译
+permalink: /projects/gpt2-chinese-generation/
 description: Chinese GPT-2 for text generation and bilingual translation
 importance: 1
 category: 研究与工程
+role: 研发实习生
+period: 2022 年 11 月—2023 年 2 月
+highlights:
+  - 重新设计中文 tokenizer 与词表结构，并开展多任务指令微调。
+  - 完成模型评估、REST API 与命令行部署。
+  - 内部测试集 BLEU 提升约 12.5%，Perplexity 下降约 15.7%。
 ---
 
 ## 项目概述

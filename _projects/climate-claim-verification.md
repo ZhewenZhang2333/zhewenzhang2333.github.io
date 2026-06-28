@@ -1,9 +1,15 @@
 ---
 layout: page
 title: 气象科学内容自动识别模型
+permalink: /projects/climate-claim-verification/
 description: Climate-science claim verification with retrieval and stance detection
 importance: 2
 category: 研究与工程
+role: 项目开发
+period: 2023 年 2 月—2023 年 6 月
+highlights:
+  - 基于 BERT、RoBERTa 与 DPR 完成科学陈述检索和立场识别。
+  - 内部验证集 F1 提升约 9.3%，AUC 提升约 7.8%。
 ---
 
 ## 项目概述
