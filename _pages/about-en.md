@@ -3,7 +3,7 @@ layout: about
 title: Home
 permalink: /
 subtitle: Joint Ph.D. Student · Harbin Institute of Technology, Shenzhen × Great Bay University
-nav: true
+nav: false
 nav_order: 1
 lang: en
 profile:
@@ -35,6 +35,8 @@ I received an M.IT. in Information Technology and Artificial Intelligence from t
 
 [Online CV]({{ '/cv/' | relative_url }}) · [Projects]({{ '/projects/' | relative_url }}) · [GitHub](https://github.com/ZhewenZhang2333) · [Email](mailto:zhewenzhang2017@gmail.com)
 
+<div style="clear: both;"></div>
+
 ## Education
 
 - **2026–Present · Joint Ph.D. Student**<br>
@@ -63,7 +65,3 @@ My previous work covers text generation, scientific claim identification, image 
 - [Climate-Science Claim Identification]({{ '/projects/climate-claim-verification/' | relative_url }})
 - [Image Similarity Learning]({{ '/projects/image-similarity/' | relative_url }})
 - [Planimation for Planning Visualization]({{ '/projects/planimation/' | relative_url }})
-
-## Teaching & Outreach
-
-From 2024 to 2026, I taught high-school information technology, coached informatics competitions, and participated in educational research and computing-related outreach activities at the Affiliated High School of Southern University of Science and Technology. See the [Teaching page]({{ '/teaching/' | relative_url }}) for details.

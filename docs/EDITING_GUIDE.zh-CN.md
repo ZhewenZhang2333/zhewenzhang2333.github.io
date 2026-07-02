@@ -105,6 +105,13 @@ git push -u origin content/update-profile
 
 英文首页：`_pages/about-en.md`，公开地址为 `/`
 
+个人简介正文的具体修改位置：
+
+- 中文：打开 `_pages/about.md`，修改 `## 个人简介` 与 `## 教育经历` 之间的文字。
+- 英文：打开 `_pages/about-en.md`，修改 `## Professional Summary` 与 `## Education` 之间的文字。
+- 首页头像旁的身份、学校和地点：修改对应文件 Front Matter 中的 `subtitle` 与 `profile.more_info`。
+- 修改姓名、网站简介和全站默认语言：修改 `_config.yml` 开头的 `title`、`first_name`、`last_name`、`description` 和 `lang`。
+
 文件开头两个 `---` 之间是 Front Matter，例如：
 
 ```yaml

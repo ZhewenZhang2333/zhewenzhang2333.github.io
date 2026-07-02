@@ -33,6 +33,8 @@ latest_posts:
 
 [在线简历]({{ '/cv/' | relative_url }}) · [项目经历]({{ '/projects/' | relative_url }}) · [GitHub](https://github.com/ZhewenZhang2333) · [Email](mailto:zhewenzhang2017@gmail.com)
 
+<div style="clear: both;"></div>
+
 ## 教育经历
 
 - **2026—至今 · 联合培养博士生**<br>
@@ -61,7 +63,3 @@ latest_posts:
 - [气象科学内容自动识别模型]({{ '/projects/climate-claim-verification/' | relative_url }})
 - [图像相似度对比模型]({{ '/projects/image-similarity/' | relative_url }})
 - [Planimation 规划算法可视化]({{ '/projects/planimation/' | relative_url }})
-
-## 教学与竞赛
-
-2024 年至 2026 年，我在南方科技大学附属中学从事高中信息技术教学、信息学竞赛指导与教育科研工作，并参与校园科技活动和计算机交流活动组织。更多信息见[教学页面]({{ '/teaching/' | relative_url }})。
