@@ -4,7 +4,7 @@ title: 中文
 permalink: /zh/
 subtitle: 联合培养博士生 · 哈尔滨工业大学（深圳）× 大湾区大学
 nav: true
-nav_order: 7
+nav_order: 6
 lang: zh-CN
 profile:
   align: left
@@ -31,7 +31,17 @@ latest_posts:
 
 我在墨尔本大学获得信息技术与人工智能硕士学位，在英属哥伦比亚大学获得计算机科学学士学位。此前，我曾在之江实验室跨媒体智能研究中心参与中文 GPT-2 模型研发，并在南方科技大学附属中学从事高中信息技术教育与信息学竞赛指导工作。
 
-[在线简历]({{ '/cv/' | relative_url }}) · [项目经历]({{ '/projects/' | relative_url }}) · [GitHub](https://github.com/ZhewenZhang2333) · [Email](mailto:zhewenzhang2017@gmail.com)
+<p>
+  <a
+    href="{{ '/assets/pdf/Zhewen_Zhang_CV.pdf' | relative_url }}"
+    class="btn btn-sm btn-outline-primary"
+    download
+  >
+    <i class="fa-solid fa-download" aria-hidden="true"></i> 下载简历
+  </a>
+</p>
+
+[项目经历]({{ '/projects/' | relative_url }}) · [GitHub](https://github.com/ZhewenZhang2333) · [Email](mailto:zhewenzhang2017@gmail.com)
 
 <div style="clear: both;"></div>
 

@@ -15,23 +15,23 @@
 
 ## 2. 常用信息对应的文件
 
-| 要修改的内容                     | 文件                       | 主要位置                                                     |
-| -------------------------------- | -------------------------- | ------------------------------------------------------------ |
-| 站点名称、简介、关键词、页脚     | `_config.yml`              | 文件开头的 `title`、`description`、`keywords`、`footer_text` |
-| 中文首页简介                     | `_pages/about.md`          | Front Matter 和 `---` 后面的正文                             |
-| 英文首页简介                     | `_pages/about-en.md`       | Front Matter 和 `---` 后面的正文                             |
-| 博士身份、教育、工作、项目、技能 | `_data/cv.yml`             | `cv.sections` 下的各部分                                     |
-| 公开联系方式和社交账号           | `_data/socials.yml`        | `email`、`github_username` 等字段                            |
-| 头像                             | `assets/img/prof_pic.png`  | 替换同名文件即可                                             |
-| 项目列表和项目详情               | `_projects/*.md`           | 每个项目一个 Markdown 文件；项目页根据 Front Matter 自动汇总 |
-| 首页“动态”                       | `_news/*.md`               | 每条动态一个 Markdown 文件                                   |
-| 动态页面入口                     | `_pages/news.md`           | 页面标题、导航顺序和动态列表                                 |
-| 论文页面入口                     | `_pages/publications.md`   | 当前为暂无论文说明，未来启用 BibTeX 展示                     |
-| 教学页面                         | `_pages/teaching.md`       | 教学、竞赛指导与教育科研经历                                 |
-| GitHub 仓库展示                  | `_data/repositories.yml`   | `github_repos` 列表                                          |
-| 简历页面入口和导航顺序           | `_pages/cv.md`             | `title`、`nav_order`、`description`                          |
-| 项目页面入口和导航顺序           | `_pages/projects.md`       | `title`、`nav_order`、`description`                          |
-| 未来论文数据                     | `_bibliography/papers.bib` | BibTeX 条目；当前论文页面尚未启用 BibTeX 列表                |
+| 要修改的内容                     | 文件                             | 主要位置                                                     |
+| -------------------------------- | -------------------------------- | ------------------------------------------------------------ |
+| 站点名称、简介、关键词、页脚     | `_config.yml`                    | 文件开头的 `title`、`description`、`keywords`、`footer_text` |
+| 中文首页简介                     | `_pages/about.md`                | Front Matter 和 `---` 后面的正文                             |
+| 英文首页简介                     | `_pages/about-en.md`             | Front Matter 和 `---` 后面的正文                             |
+| 博士身份、教育、工作、项目、技能 | `_data/cv.yml`                   | `cv.sections` 下的各部分                                     |
+| 公开联系方式和社交账号           | `_data/socials.yml`              | `email`、`github_username` 等字段                            |
+| 头像                             | `assets/img/prof_pic.png`        | 替换同名文件即可                                             |
+| 项目列表和项目详情               | `_projects/*.md`                 | 每个项目一个 Markdown 文件；项目页根据 Front Matter 自动汇总 |
+| 首页“动态”                       | `_news/*.md`                     | 每条动态一个 Markdown 文件                                   |
+| 动态页面入口                     | `_pages/news.md`                 | 页面标题、导航顺序和动态列表                                 |
+| 论文页面入口                     | `_pages/publications.md`         | 当前为暂无论文说明，未来启用 BibTeX 展示                     |
+| 教学页面                         | `_pages/teaching.md`             | 教学、竞赛指导与教育科研经历                                 |
+| GitHub 仓库展示                  | `_data/repositories.yml`         | `github_repos` 列表                                          |
+| 公开版 PDF 简历                  | `assets/pdf/Zhewen_Zhang_CV.pdf` | 覆盖同名文件即可更新首页下载内容                             |
+| 项目页面入口和导航顺序           | `_pages/projects.md`             | `title`、`nav_order`、`description`                          |
+| 未来论文数据                     | `_bibliography/papers.bib`       | BibTeX 条目；当前论文页面尚未启用 BibTeX 列表                |
 
 通常只需要修改上表中的文件。不要为了改文字去修改 `Gemfile`、主题文件或 `.github/workflows/deploy.yml`。
 
@@ -142,7 +142,15 @@ nav_order: 1
 
 ### 5.2 修改简历
 
-简历数据全部位于 `_data/cv.yml`。目前包含：
+网站已取消在线简历页面。中英文首页的下载按钮都指向：
+
+```text
+assets/pdf/Zhewen_Zhang_CV.pdf
+```
+
+更新公开简历时，直接用新版 PDF 覆盖这个同名文件即可；不要改变文件名，否则还需要同步修改两个首页中的下载链接。
+
+`_data/cv.yml` 继续保留结构化履历数据，但不会自动生成 PDF。修改经历时应同时更新 PDF 和 `_data/cv.yml`。结构化数据目前包含：
 
 - `教育经历`
 - `工作与研究经历`
