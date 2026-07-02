@@ -33,7 +33,17 @@ I am a joint Ph.D. student at [Harbin Institute of Technology, Shenzhen](https:/
 
 I received an M.IT. in Information Technology and Artificial Intelligence from the University of Melbourne and a B.Sc. in Computer Science from the University of British Columbia. I previously worked on Chinese GPT-2 development at the Cross-Media Intelligence Research Center of Zhejiang Lab and taught information technology and informatics competition courses at the Affiliated High School of Southern University of Science and Technology.
 
-[Online CV]({{ '/cv/' | relative_url }}) · [Projects]({{ '/projects/' | relative_url }}) · [GitHub](https://github.com/ZhewenZhang2333) · [Email](mailto:zhewenzhang2017@gmail.com)
+<p>
+  <a
+    href="{{ '/assets/pdf/Zhewen_Zhang_CV.pdf' | relative_url }}"
+    class="btn btn-sm btn-outline-primary"
+    download
+  >
+    <i class="fa-solid fa-download" aria-hidden="true"></i> Download CV
+  </a>
+</p>
+
+[Projects]({{ '/projects/' | relative_url }}) · [GitHub](https://github.com/ZhewenZhang2333) · [Email](mailto:zhewenzhang2017@gmail.com)
 
 <div style="clear: both;"></div>
 
