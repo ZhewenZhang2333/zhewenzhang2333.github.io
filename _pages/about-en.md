@@ -27,11 +27,9 @@ latest_posts:
 
 <p><a href="{{ '/zh/' | relative_url }}">中文版</a></p>
 
-## Professional Summary
+I’m Zhewen Zhang, a joint PhD student at Harbin Institute of Technology, Shenzhen and Great Bay University. My advisors are [Daojing He](https://homepage.hit.edu.cn/hedaojing) at HIT Shenzhen and [Mingzhe Li](https://mingzheli-aibc.github.io/) at Great Bay University. I study how language models use public evidence to propose hypotheses and how to test whether those hypotheses improve a forecast.
 
-I am a joint Ph.D. student at [Harbin Institute of Technology, Shenzhen](https://www.hitsz.edu.cn/) and [Great Bay University](https://www.gbu.edu.cn/). My previous study and project experience spans **natural language processing**, **computer vision**, **large language models**, and **computing education**.
-
-I received an M.IT. in Information Technology and Artificial Intelligence from the University of Melbourne and a B.Sc. in Computer Science from the University of British Columbia. I previously worked on Chinese GPT-2 development at the Cross-Media Intelligence Research Center of Zhejiang Lab and taught information technology and informatics competition courses at the Affiliated High School of Southern University of Science and Technology.
+Before my PhD, I worked on Chinese GPT-2 at Zhejiang Lab and taught information technology and coached students for informatics competitions at the Affiliated High School of Southern University of Science and Technology. I studied information technology and AI at the University of Melbourne after completing my undergraduate degree in computer science at the University of British Columbia.
 
 <p>
   <a
@@ -45,13 +43,17 @@ I received an M.IT. in Information Technology and Artificial Intelligence from t
 
 [Projects]({{ '/projects/' | relative_url }}) · [GitHub](https://github.com/ZhewenZhang2333) · [Email](mailto:zhewenzhang2017@gmail.com)
 
-<div style="clear: both;"></div>
+<section aria-labelledby="current-research" style="clear: both; margin: 1.8rem 0; padding: .35rem 0 .45rem 1.15rem; border-left: .22rem solid var(--global-theme-color);">
+  <h2 id="current-research">Current research</h2>
+  <h3><a href="{{ '/en/projects/macro-event-market-research/' | relative_url }}">Macro events and cross-market forecasting</a></h3>
+  <p>An oil rally can reflect stronger demand or a supply disruption. When the news first breaks, what evidence could tell those stories apart? I’m building a research project around that question, tracing each forecast from what was knowable at the time to an outcome we can later check.</p>
+  <a href="{{ '/en/projects/macro-event-market-research/' | relative_url }}">Questions and methods</a> · <a href="https://github.com/ZhewenZhang2333/macro-event-market-research">Public repository</a>
+</section>
 
 ## Education
 
 - **2026–Present · Joint Ph.D. Student**<br>
-  [Harbin Institute of Technology, Shenzhen](https://www.hitsz.edu.cn/) × [Great Bay University](https://www.gbu.edu.cn/)<br>
-  Joint Ph.D. Program
+  [Harbin Institute of Technology, Shenzhen](https://www.hitsz.edu.cn/) × [Great Bay University](https://www.gbu.edu.cn/)
 
 - **2022–2024 · Master of Information Technology**<br>
   [The University of Melbourne](https://www.unimelb.edu.au/), Australia<br>
@@ -61,17 +63,8 @@ I received an M.IT. in Information Technology and Artificial Intelligence from t
   [The University of British Columbia](https://www.ubc.ca/), Canada<br>
   Computer Science
 
-## Interests
+## Earlier projects and teaching
 
-**Natural Language Processing** · **Computer Vision** · **Large Language Models** · **AI Education**
-
-These interests summarize my previous study and project experience. My specific doctoral research direction will be added once finalized.
-
-## Research & Projects
-
-My previous work covers text generation, scientific claim identification, image similarity learning, and automated-planning visualization, with experience spanning model training, evaluation, and engineering deployment.
-
-- [Chinese GPT-2 for Text Generation and Translation]({{ '/projects/gpt2-chinese-generation/' | relative_url }})
-- [Climate-Science Claim Identification]({{ '/projects/climate-claim-verification/' | relative_url }})
-- [Image Similarity Learning]({{ '/projects/image-similarity/' | relative_url }})
-- [Planimation for Planning Visualization]({{ '/projects/planimation/' | relative_url }})
+- **Language and evidence.** I worked on [Chinese GPT-2 for generation and translation]({{ '/projects/gpt2-chinese-generation/' | relative_url }}) and [retrieval and stance detection for climate-science claims]({{ '/projects/climate-claim-verification/' | relative_url }}).
+- **Vision and planning.** My projects include [learning image similarity]({{ '/projects/image-similarity/' | relative_url }}) and [visualizing automated plans with Planimation]({{ '/projects/planimation/' | relative_url }}).
+- **Computing education.** I taught high school information technology, coached informatics competitions and hold an NOI coaching certificate. [Teaching experience (Chinese)]({{ '/teaching/' | relative_url }})
