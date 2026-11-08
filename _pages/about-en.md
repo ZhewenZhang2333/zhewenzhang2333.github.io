@@ -48,7 +48,7 @@ Before my PhD, I worked on Chinese GPT-2 at Zhejiang Lab and taught information 
 <section aria-labelledby="current-research" class="research-feature">
   <h2 id="current-research">Current research</h2>
   <h3><a href="{{ '/en/projects/macro-event-market-research/' | relative_url }}">Macro events and cross-market forecasting</a></h3>
-  <p>An oil rally can reflect stronger demand or a supply disruption. When the news first breaks, what evidence could tell those stories apart? I’m building a research project around that question, tracing each forecast from what was knowable at the time to an outcome we can later check.</p>
+  <p>My research examines how market expectations and economic conditions shape the transmission of macroeconomic events across asset markets. I plan to use language models to derive hypotheses about the direction of these effects and the conditions under which they arise, using only texts and data available at the time of each forecast. By comparing methods with and without these hypotheses on the same information set, I aim to test whether they improve out-of-sample forecasts of event probabilities and the direction of asset movements.</p>
   <a href="{{ '/en/projects/macro-event-market-research/' | relative_url }}">Questions and methods</a> · <a href="https://github.com/ZhewenZhang2333/macro-event-market-research">Public repository</a>
 </section>
 

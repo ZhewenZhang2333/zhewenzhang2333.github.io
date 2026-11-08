@@ -46,7 +46,7 @@ latest_posts:
 <section aria-labelledby="current-research" class="research-feature">
   <h2 id="current-research">当前研究</h2>
   <h3><a href="{{ '/projects/macro-event-market-research/' | relative_url }}">宏观事件与跨市场预测</a></h3>
-  <p>同样是油价上涨，需求回暖和供应中断都说得通。我想知道，站在消息刚传来的那一刻，哪些证据足以区分这两种解释？这个项目把当时能看到的资料、助手提出的判断和后来可以核对的结果放在一起，研究一个解释能否经得起下一次事件。</p>
+  <p>本研究考察市场预期与经济状态如何影响宏观事件在不同资产市场间的传导。研究拟依据预测时点可获得的文本与数据，利用大语言模型提出关于传导方向及其适用条件的假设，并在相同信息集下比较引入这些假设前后的样本外表现，检验其能否改善对事件发生概率和资产变动方向的预测。</p>
   <a href="{{ '/projects/macro-event-market-research/' | relative_url }}">研究问题与方法</a> · <a href="https://github.com/ZhewenZhang2333/macro-event-market-research/blob/main/README.zh-CN.md">公开项目仓库</a>
 </section>
 
