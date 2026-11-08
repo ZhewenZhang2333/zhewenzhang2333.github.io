@@ -15,7 +15,7 @@ Before a central bank announces its decision, we can ask how likely a policy cha
 
 I’m particularly interested in the timing of evidence. A number in today’s economic database may have been unavailable at the forecast cutoff or revised since its first release. Reconstructing what a forecaster could actually see changes which explanations can be tested.
 
-![Research framework linking available evidence and competing explanations to event probabilities and cross-market responses.]({{ '/assets/img/macro-framework-en.png' | relative_url }})
+![Research framework linking available evidence and competing explanations to event probabilities and cross-market responses.]({{ '/assets/img/macro-framework-en.png' | relative_url }}){: .img-fluid width="2000" height="742" }
 
 ## How I plan to test it
 

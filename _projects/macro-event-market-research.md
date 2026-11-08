@@ -17,7 +17,7 @@ lang: zh-CN
 
 我尤其关心资料的发布时间。今天看得到的一项宏观数据，在预测当时可能尚未发布，也可能在之后被修订。回到当时可用的版本，才能判断一个解释究竟能否用于预测。
 
-![研究框架：从截点前资料出发，比较竞争解释，分别考察事件概率和跨市场响应。]({{ '/assets/img/macro-framework-zh.png' | relative_url }})
+![研究框架：从截点前资料出发，比较竞争解释，分别考察事件概率和跨市场响应。]({{ '/assets/img/macro-framework-zh.png' | relative_url }}){: .img-fluid width="2000" height="742" }
 
 ## 准备怎样检验
 
