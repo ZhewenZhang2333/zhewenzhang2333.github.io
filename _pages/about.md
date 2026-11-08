@@ -23,6 +23,8 @@ latest_posts:
   enabled: false
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/academic-profile.css' | relative_url }}">
+
 <p><a href="{{ '/' | relative_url }}">English version</a></p>
 
 我是张哲闻，哈尔滨工业大学（深圳）与大湾区大学联合培养博士生，导师是哈工深的[何道敬教授](https://homepage.hit.edu.cn/hedaojing)和大湾区大学的[李明哲教授](https://mingzheli-aibc.github.io/)。我研究大语言模型怎样利用公开资料提出假设，以及怎样检验这些假设对预测是否有帮助。
@@ -41,7 +43,7 @@ latest_posts:
 
 [项目经历]({{ '/projects/' | relative_url }}) · [GitHub](https://github.com/ZhewenZhang2333) · [Email](mailto:zhewenzhang2017@gmail.com)
 
-<section aria-labelledby="current-research" style="clear: both; margin: 1.8rem 0; padding: .35rem 0 .45rem 1.15rem; border-left: .22rem solid var(--global-theme-color);">
+<section aria-labelledby="current-research" class="research-feature">
   <h2 id="current-research">当前研究</h2>
   <h3><a href="{{ '/projects/macro-event-market-research/' | relative_url }}">宏观事件与跨市场预测</a></h3>
   <p>同样是油价上涨，需求回暖和供应中断都说得通。我想知道，站在消息刚传来的那一刻，哪些证据足以区分这两种解释？这个项目把当时能看到的资料、助手提出的判断和后来可以核对的结果放在一起，研究一个解释能否经得起下一次事件。</p>

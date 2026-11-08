@@ -25,6 +25,8 @@ latest_posts:
   enabled: false
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/academic-profile.css' | relative_url }}">
+
 <p><a href="{{ '/zh/' | relative_url }}">中文版</a></p>
 
 I’m Zhewen Zhang, a joint PhD student at Harbin Institute of Technology, Shenzhen and Great Bay University. My advisors are [Daojing He](https://homepage.hit.edu.cn/hedaojing) at HIT Shenzhen and [Mingzhe Li](https://mingzheli-aibc.github.io/) at Great Bay University. I study how language models use public evidence to propose hypotheses and how to test whether those hypotheses improve a forecast.
@@ -43,7 +45,7 @@ Before my PhD, I worked on Chinese GPT-2 at Zhejiang Lab and taught information 
 
 [Projects]({{ '/projects/' | relative_url }}) · [GitHub](https://github.com/ZhewenZhang2333) · [Email](mailto:zhewenzhang2017@gmail.com)
 
-<section aria-labelledby="current-research" style="clear: both; margin: 1.8rem 0; padding: .35rem 0 .45rem 1.15rem; border-left: .22rem solid var(--global-theme-color);">
+<section aria-labelledby="current-research" class="research-feature">
   <h2 id="current-research">Current research</h2>
   <h3><a href="{{ '/en/projects/macro-event-market-research/' | relative_url }}">Macro events and cross-market forecasting</a></h3>
   <p>An oil rally can reflect stronger demand or a supply disruption. When the news first breaks, what evidence could tell those stories apart? I’m building a research project around that question, tracing each forecast from what was knowable at the time to an outcome we can later check.</p>
